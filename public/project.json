@@ -1,0 +1,36 @@
+
+[
+    {
+      "id": 1,
+      "name": "Matrimony",
+      "technologies": ["React.js", "Tailwind CSS", "Firebase", "MongoDB"],
+      "image": "https://example.com/portfolio-image.jpg",
+      "github": "https://github.com/sujoydam/portfolio",
+      "Site": "https://github.com/sujoydam/portfolio"
+    },
+    {
+      "id": 2,
+      "name": "Run Club",
+      "technologies": ["MERN Stack", "Redux", "Stripe API"],
+      "image": "https://example.com/ecommerce-image.jpg",
+      "github": "https://github.com/sujoydam/ecommerce-platform",
+      "liveSite": "https://github.com/sujoydam/portfolio"
+    },
+    {
+      "id": 3,
+      "name": "Crowd Cube",
+      "technologies": ["Next.js", "MongoDB", "Node.js", "Express"],
+      "image": "https://example.com/veterinary-clinic.jpg",
+      "github": "https://github.com/sujoydam/veterinary-clinic",
+      "liveSite": "https://github.com/sujoydam/portfolio"
+    },
+    {
+      "id": 4,
+      "name": "Winter Care",
+      "technologies": ["React.js", "Firebase", "Tailwind CSS"],
+      "image": "https://example.com/job-board.jpg",
+      "github": "https://github.com/sujoydam/job-board",
+      "liveSite": "https://github.com/sujoydam/portfolio"
+    }
+  ]
+  
