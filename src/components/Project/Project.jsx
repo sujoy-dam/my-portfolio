@@ -74,7 +74,7 @@ const Project = () => {
                                     <a href={project.liveSite} target='_blank' className='inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
                                         Live Site
                                     </a>
-                                    <Link className='inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
+                                    <Link to={`/details/${project?.id}`} className='inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
                                         Details
                                     </Link>
                                 </div>

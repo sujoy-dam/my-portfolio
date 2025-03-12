@@ -4,6 +4,7 @@ import Skill from '../Skill/Skill';
 import Project from '../Project/Project';
 import Hero from '../Hero/Hero';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -25,6 +26,9 @@ const Home = () => {
             </div>
             <div>
                 <Contact/>
+            </div>
+            <div>
+                <Footer/>
             </div>
         </div>
     );
