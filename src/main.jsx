@@ -17,31 +17,31 @@ import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout/>,
-    errorElement:<ErrorPage/>,
-    children:[
+    element: <MainLayout />,
+    errorElement: <ErrorPage />,
+    children: [
       {
-        path:'/',
-        element:<Home/>
+        path: '/',
+        element: <Home />
       },
       {
-        path:"/about",
-        element:<About></About>
+        path: "/about",
+        element: <About></About>
       },
       {
-        path:"/skill",
-        element:<Skill/>
+        path: "/skill",
+        element: <Skill />
       },
       {
-        path:"/project",
-        element:<Project/>
-      },
-      {
-        path:"/details/:id",
-        element:<Details/>
+        path: "/project",
+        element: <Project />
       }
     ]
   },
+  {
+    path: "/details/:id",
+    element: <Details />
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(

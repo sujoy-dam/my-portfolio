@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const projects=[
     {
       id: 1,
-      name: "Matrimony",
+      name: "Bangla Matrimony",
     //   technologies: ["React.js", "Tailwind CSS", "Firebase", "MongoDB"],
       image: Matrimony,
       github: "https://github.com/sujoy-dam/matrimony-client",

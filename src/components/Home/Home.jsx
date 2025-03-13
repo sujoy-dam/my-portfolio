@@ -9,27 +9,7 @@ import Footer from '../Footer/Footer';
 const Home = () => {
     return (
         <div>
-            <section>
-                <div className=''>
-                    <Hero/>
-                </div>
-            </section>
-            <div>
-
-                <About></About>
-            </div>
-            <div>
-                <Skill></Skill>
-            </div>
-            <div>
-                <Project></Project>
-            </div>
-            <div>
-                <Contact/>
-            </div>
-            <div>
-                <Footer/>
-            </div>
+            
         </div>
     );
 };
