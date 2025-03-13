@@ -50,9 +50,9 @@ const Details = () => {
     const { id } = useParams()
     const data = projects.find(item => item.id == id)
     return (
-        <div className='space-y-5 flex bg-blue-950 p-20 justify-between items-center  gap-20'>
+        <div className='space-y-5 flex flex-col lg:flex-row bg-blue-950 p-20 justify-between items-center  gap-20'>
             <div className='w-full h-full lg:w-1/2'>
-                <img src={data.image} alt="" className='h-full w-full flex-grow flex' />
+                <img src={data.image} alt="" className='flex-grow flex' />
             </div>
             <div className='w-full lg:w-1/2 text-white text-left space-y-4'>
                 <h1 className='text-3xl text-white font-medium'>{data.name}</h1>
